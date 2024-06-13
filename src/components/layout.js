@@ -9,13 +9,25 @@
 import * as React from "react"
 
 import "./layout.css"
+import LandingPage from "./LandingPage/LandingPage"
+import Services from "./Services/Services"
+import ClinicInnovation from "./ClinicInnovation/ClinicInnovation"
+import Customers from "./Customers/Customers"
+import Newsletter from "./Newsletter/Newsletter"
+import Footer from "./Footer/Footer"
+import Specialist from "./Specialist/Specialist"
 
-const Layout = ({ children }) => {
+const Layout = () => {
 
   return (
     <>
-    
-        <main>{children}</main>
+    <LandingPage/>
+    <Services/>
+    <ClinicInnovation/>
+    <Specialist/>
+    <Customers/>
+    <Newsletter/>
+    <Footer/>
         
     </>
   )
