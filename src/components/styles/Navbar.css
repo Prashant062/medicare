@@ -1,0 +1,80 @@
+/* General Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 20px;
+    height: 90px;
+    box-sizing: border-box;
+  
+  }
+  
+  .navbar-brand {
+    font-family: 'Source Sans Pro';
+    font-size: 34px;
+    font-weight: 700;
+    color: #0073FF;
+    position: relative;
+    left: 100px;
+  }
+  
+  .navbar-brand .highlight {
+    color: #FF9F6A;
+  }
+  
+  .navbar-right {
+    display: flex;
+    flex-grow: 1;
+    gap: 55px;
+    justify-content: center;
+    position: relative;
+    left: 110px;
+  }
+  .navbar-right a{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+    z-index: 10;
+  }
+  
+  .nav-link {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 700;
+    color: #0073FF;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #4b89d6b7;
+  }
+  
+  .navbar-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:170px;
+  }
+  
+  .navbar-button button {
+    padding: 10px 20px;
+    background-color: #0073FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 170px;
+    height: 50px;
+    z-index: 60;
+  }
+  
+  .navbar-button button:hover {
+    background-color: #005bb5;
+  }
+  

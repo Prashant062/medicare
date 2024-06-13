@@ -1,0 +1,127 @@
+.clinic-innovation {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 1127px;
+    gap: 20px;
+    opacity: 0px;
+  }
+  .clinic-inov {
+    width: 600px;
+    height: 1100px;
+    position: relative;
+    left: 90px;
+  }
+  
+  .clinic-inov h1 {
+    width: 559px;
+    height: 78px;
+    position: relative;
+    top: 485px;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Source Sans Pro';
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 78px;
+    color: #003B79;
+    text-align: left;
+  }
+  .clinic-inov p {
+    width: 546px;
+    height: 78px;
+    position: relative;
+    color:#002348;
+    top: 520px;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+  }
+  .clinic-inov button{
+    width: 186px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    background: #007ff4;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: center;
+    position: relative;
+    top: 562px;
+    left: 30px;
+    border-radius:3rem;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+  }
+  
+  .clinic-service {
+    width: 600px;
+    height: 1100px;
+    position: relative;
+    left: 90px;
+    background-color: #fff;
+    z-index: 999;
+  }
+  
+  .qualified,
+  .emergency-care,
+  .emergency-service {
+    width: 282px;
+    height: 236px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 5%;
+    box-shadow: 0px 10px 50px 25px #053e7a13;
+    z-index: 999;
+  }
+  .qualified {
+    position: relative;
+    top: 300px;
+    left: 10px;
+    z-index: 999;
+  }
+  .emergency-care {
+    position: relative;
+    top: 270px;
+    left: 320px;
+  }
+  .emergency-service {
+    position: relative;
+    top: 260px;
+    left: 10px;
+  }
+  
+  .qualified img,
+  .emergency-care img,
+  .emergency-service img {
+    width: 232px;
+    height: 232px;
+    position: relative;
+    left: 15px;
+    bottom: 120px;
+  }
+  
+  .qualified p,
+  .emergency-care p,
+  .emergency-service p {
+    width: 200px;
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.17px;
+    text-align: left;
+    color: #002348;
+    position: relative;
+    bottom: 80px;
+    left: 27px;
+  }
+  

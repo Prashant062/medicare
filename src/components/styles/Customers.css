@@ -1,0 +1,132 @@
+
+.Customers-container {
+    width: 1440px;
+    height: 600px;
+    top: 3930px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  
+  .Customers-title {
+    width: 697px;
+    height: 78px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+  }
+  .Customers-title h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: left;
+    color: #003b79;
+  }
+  .card-content{
+      display: flex;
+      gap: 40px;
+      
+  }
+  .comment {
+    width: 577px;
+    height: 294px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    top: 210px;
+    left: 100px;
+    border-radius:20px;
+    box-shadow: 0px 10px 50px 25px #003B7913;
+    z-index: 999;
+  }
+  
+  .comment-comma{
+      width: 84px;
+      height: 89px;
+      position: relative;
+      bottom: 30px;
+      left: 510px;
+      gap: 0px;
+      opacity: 0px;
+      z-index: 999;
+  }
+  .comment-comma h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 83.3px;
+      height: 83.3px;
+      gap: 0px;
+      opacity: 0px;
+      background-color: #007FF4;
+      color: #fff;
+      border-radius: 50%;
+  }
+  
+  
+  .comment-title {
+    width: 442px;
+    height: 106px;
+    position: relative;
+    bottom: 50px;
+    left: 67px;
+  }
+  .comment-title p {
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    color: #002348;
+  }
+  
+  .user-details img {
+    width: 59px;
+    height: 59px;
+    gap: 0px;
+    position: relative;
+    left: 67px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 50%;
+    border: 1px solid #979797;
+  }
+  .user-details h6 {
+    width: 381px;
+    height: 30px;
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.17px;
+    text-align: left;
+    color: #002348;
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+  }
+  
+  .user-details p {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.63px;
+    text-align: left;
+    color: #002348;
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+  }
+  
+  .btn{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #70a9e6;
+    border: none;
+  }

@@ -1,0 +1,156 @@
+/* HeroSection.css */
+.container {
+    width: 1441px;
+    height: 953px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .backgeound {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -238px;
+    left: -200px;
+    gap: 0px;
+    border: 100px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 10px 5px 12.5px #003b7913;
+    border-radius: 50%;
+    border: 100px solid #ffffff;
+    background-color: #003b7913;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-content {
+    height: 280px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+  }
+  .container-content h1 {
+    width: 559px;
+    height: 78px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #003b79;
+    text-align: left;
+    position: relative;
+    top: 23px;
+  }
+  
+  .container-content h5 {
+    width: 354px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.17px;
+    text-align: left;
+    color: #002348;
+  }
+  .container-content p {
+    width: 546px;
+    height: 122px;
+    position: relative;
+    top: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    color: #002348;
+  }
+  
+  .content-box {
+    width: 574px;
+    height: 672px;
+    top: 141px;
+    left: 745px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .section-box {
+    width: 574px;
+    height: 672px;
+    top: 141px;
+    left: 745px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ebeeff;
+    position: relative;
+    left: -50px;
+    top: 55px;
+    border-radius: 25px;
+    z-index: 100;
+  }
+  .button-tag {
+    display: flex;
+    position: relative;
+    top: 238px;
+    left: 45px;
+  }
+  .button-tag .appoint {
+    display: flex;
+    position: relative;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-tag .appoint a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 259px;
+    height: 60px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    color: #fff;
+    text-align: center;
+    background-color: #0073ff;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  
+  .button-tag .depart {
+    width: 259px;
+    height: 60px;
+    position: relative;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+    background-color: #ebeeff;
+  }
+  .button-tag .depart a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 259px;
+    height: 60px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    color: #0073ff;
+    text-align: center;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  

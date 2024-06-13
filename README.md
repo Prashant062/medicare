@@ -50,17 +50,39 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 A quick look at the top-level files and directories you'll see in a typical Gatsby project.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package.json
-    └── README.md
+
+   ├── src
+│ ├── components
+│ │ ├── ClinicInnovation
+│ │ │ └── ClinicInnovation.js
+│ │ ├── Customers
+│ │ │ └── Customers.js
+│ │ ├── Footer
+│ │ │ └── Footer.js
+│ │ ├── LandingPage
+│ │ │ └── LandingPage.js
+│ │ ├── Newsletter
+│ │ │ └── Newsletter.js
+│ │ ├── Services
+│ │ │ └── Services.js
+│ │ └── Specialist
+│ │ └── Specialist.js
+│ ├── pages
+│ │ └── index.js
+│ ├── styles
+│ │ ├── Footer.css
+│ │ ├── LandingPage.css
+│ │ ├── Services.css
+│ │ ├── Specialist.css
+│ │ └── global.css
+│ ├── images
+│ │ └── (images used in the project)
+├── .cache
+├── public
+├── gatsby-config.js
+├── gatsby-browser.js
+├── package.json
+└── README.md
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 

@@ -1,0 +1,46 @@
+/* Footer.css */
+.footer {
+    width: 1440px;
+  height: 241px;
+  background-color: #ECF4FF;
+    }
+  
+    .footer-bottom{
+      height: 60px;
+      width: 160px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      left: 120px;
+      gap: 10px;
+      
+    }
+    .footer-bottom span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 51px;
+      height: 51px;
+      font-size: 36px;
+      background:#fff ;
+      color: #7F7F7F;
+      font-weight: 900;
+      border-radius: 50%;
+    }
+  
+  
+    .copy-right{
+      width: 213px;
+  height: 34px;
+  
+  position: relative;
+  left: 130px;
+    }
+    .copy-right p{
+      font-family: 'Open Sans';
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 34px;
+      text-align: left;
+      color: #667C94;
+    }
