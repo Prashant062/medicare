@@ -11,6 +11,9 @@ const LandingPage = () => {
   return (
     <>
       <section className="container">
+      <section>
+        <Services/>
+      </section>
     <Navbar showButton={true}/>
         <div className="backgeound">
           
@@ -37,9 +40,7 @@ const LandingPage = () => {
         </div>
 
       </section>
-      <section>
-        <Services/>
-      </section>
+      
       <section>
        <ClinicInnovation/>
       </section>
