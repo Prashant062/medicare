@@ -1,6 +1,12 @@
 import React from 'react'
 import "../styles/LandingPage.css"
 import Navbar from '../Navbar/Navbar'
+import Services from '../Services/Services'
+import ClinicInnovation from '../ClinicInnovation/ClinicInnovation'
+import Specialist from '../Specialist/Specialist'
+import Customers from '../Customers/Customers'
+import Newsletter from '../Newsletter/Newsletter'
+import Footer from '../Footer/Footer'
 const LandingPage = () => {
   return (
     <>
@@ -30,6 +36,24 @@ const LandingPage = () => {
           </div>
         </div>
 
+      </section>
+      <section>
+        <Services/>
+      </section>
+      <section>
+       <ClinicInnovation/>
+      </section>
+      <section>
+       <Specialist/>
+      </section>
+      <section>
+       <Customers/>
+      </section>
+      <section>
+       <Newsletter/>
+      </section>
+      <section>
+      <Footer/>
       </section>
     </>
   )

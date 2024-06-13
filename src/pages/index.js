@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
+import LandingPage from '../components/LandingPage/LandingPage'
 
 const index = () => {
   return (
     <div>
-      <Layout/>
+    <LandingPage/>
     </div>
   )
 }
